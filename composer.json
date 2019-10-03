@@ -1,0 +1,31 @@
+{
+    "name": "tm30/laravel-invoiceable",
+    "description": "A simple laravel package that allows you invoke the invoiceable trait on a model",
+    "type": "library",
+    "homepage": "https://gitlab.com/tm30/packages/laravel/laravel-invoiceable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TM30",
+            "email": "tech@tm30.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TM30\\LaravelInvoiceable\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TM30\\LaravelInvoiceable\\InvoiceableServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php" : "^7.2",
+        "illuminate/config": "5.8.*|^6.0",
+        "illuminate/database": "5.8.*|^6.0",
+        "illuminate/support": "5.8.*|^6.0"
+    }
+}
