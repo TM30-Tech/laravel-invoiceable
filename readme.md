@@ -1,8 +1,8 @@
 ## Still In Development... 
-##### Just for test 🙃
+##### Just for test ðŸ™ƒ
 
 ### Installation 
 Run 
-`composer require victoralagwu/laravel-invoiceable`
+`composer require tm30/laravel-invoiceable`
 
-Publish the Package `php artisan vendor:publish --provider="Victor\LaravelInvoiceable\InvoiceableServiceProvider"`
+Publish the Package `php artisan vendor:publish --provider="TM30\LaravelInvoiceable\InvoiceableServiceProvider"`
