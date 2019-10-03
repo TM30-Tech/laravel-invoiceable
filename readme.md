@@ -1,5 +1,5 @@
 ## Still In Development... 
-##### Just for test ðŸ™ƒ
+##### Just for test
 
 ### Installation 
 Run 
