@@ -67,4 +67,9 @@ trait Invoiceable {
         return $this->reference;
     }
 
+    public function getInvoiceExpiresAtAttribute() {
+        $currentTime = Carbon::now();
+        return $currentTime->addMinutes(5);
+    }
+
 }

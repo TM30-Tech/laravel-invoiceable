@@ -34,6 +34,7 @@ class CreateInvoice
         $invoice->quantity = 1;
         $invoice->reference = $event->model->invoice_reference;
         $invoice->amount = $event->model->invoice_amount;
+        $invoice->expires_at  = $event->model->invoice_expires_at;
         $invoice->invoiceable_id = $event->model->id;
         $invoice->invoiceable_type = $event->model->getMorphClass();
 
