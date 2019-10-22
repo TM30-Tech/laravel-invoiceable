@@ -9,4 +9,8 @@ class InvoiceTransaction extends Model
 {
     use UsesUuid;
     protected $guarded = [];
+
+    public function invoice() {
+        return $this->belongsTo(Invoice::class);
+    }
 }
