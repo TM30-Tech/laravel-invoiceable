@@ -10,5 +10,5 @@ Publish the Package `php artisan vendor:publish --provider="TM30\LaravelInvoicea
 ### TODO's
 
 * Write Test
-* Find a way to astract the models
+* Find a way to abstract the models
 
