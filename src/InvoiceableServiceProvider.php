@@ -26,7 +26,7 @@ class InvoiceableServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/database/migrations/' => database_path('migrations'),
-            __DIR__.'/Models' => app_path(),
+            __DIR__.'/Models/ModelTrait/' => app_path(),
         ]);
     }
 }
